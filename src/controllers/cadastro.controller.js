@@ -12,7 +12,7 @@ const cadastroController = async (req, res) => {
         return res.json({ message: 'Cadastro realizado com sucesso' });
     } catch (error) {
         console.log(error);
-        return res.status(500).json({ message: "Erros no servidor" });
+        return res.status(500).json({ message: "Erro no servidor" });
     }
 };
 
